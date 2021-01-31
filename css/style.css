@@ -1,4 +1,57 @@
-body{
-    margin : none;
-    background-color: #f1f1f1;
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: arial, sans-serif;
+    background: var(--black);
+    color: var(--white);
+    text-align: center;
+}
+
+
+/* *******************************      Color management in the template
+******************************  */
+
+:root {
+    --black: #131416;
+    --white: #f1f1f1;
+    --red: #ff4754;
+}
+
+
+/* *******************************      Computer preference dark / light
+******************************  */
+
+h1 {
+    color: var(--color);
+    margin-bottom: 0.6rem;
+    font-size: 3rem;
+}
+
+p {
+    color: var(--white);
+}
+
+@media (prefers-color-scheme: light) {
+     :root {
+        --background: var(--black);
+        --foreground: var(--white);
+        --color: var(--red);
+    }
+    p {
+        color: var(--black);
+    }
+    body {
+        background-color: var(--white);
+    }
+}
+
+
+/* *******************************      Footer
+******************************  */
+
+footer {
+    position: absolute;
+    bottom: 0;
 }
