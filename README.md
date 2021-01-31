@@ -23,4 +23,4 @@ Features :
     
     - Automatic date in JavaScript for copyright
     
-    - Page footer fixed, reacts automatically to adding sections to stay at the bottom of the web page
+    - Page footer stared, reacts automatically when adding sections in order to make them stay at the bottom of the web page
