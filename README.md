@@ -24,3 +24,5 @@ Features :
     - Automatic date in JavaScript for copyright
     
     - Page footer stared, reacts automatically when adding sections in order to make them stay at the bottom of the web page
+    
+    - Automatic detection of dark mode on user's computer
