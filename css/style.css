@@ -17,8 +17,23 @@ body {
     --black: #131416;
     --white: #f1f1f1;
     --red: #ff4754;
+    --purple : #b5076b;
 }
-
+/* *******************************      ScrollBar
+******************************  */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-track {
+    background-color: var(--white);
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: var(--red);
+}
+body::-webkit-scrollbar-thumb:hover {
+    background-color: var(--purple);
+}
 
 /* *******************************      Computer preference dark / light
 ******************************  */
